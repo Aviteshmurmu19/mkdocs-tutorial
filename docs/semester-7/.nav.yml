@@ -1,0 +1,8 @@
+# This file arranges the courses within a semester.
+# List your course folders here in the desired order.
+# docs/Semester 7/.nav.yml
+title: Semester 7
+arrange:
+  - index.md
+  - "CL 409"
+  - "CL 461"

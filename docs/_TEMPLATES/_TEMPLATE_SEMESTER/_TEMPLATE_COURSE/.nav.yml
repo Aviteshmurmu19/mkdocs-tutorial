@@ -1,0 +1,5 @@
+# This file arranges the lectures within a course.
+# The glob pattern automatically finds all 'lecture-*.md' files.
+nav:
+  - index.md
+  - "lecture-*.md"

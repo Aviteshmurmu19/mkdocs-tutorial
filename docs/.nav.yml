@@ -1,0 +1,5 @@
+# docs/.nav.yml
+nav:
+  - index.md
+  - "Semester 7"
+  - tags.md

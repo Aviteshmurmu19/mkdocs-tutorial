@@ -1,0 +1,5 @@
+# This file arranges the courses within a semester.
+# List your course folders here in the desired order.
+arrange:
+  - index.md
+  - _TEMPLATE_COURSE
