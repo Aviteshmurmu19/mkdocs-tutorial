@@ -26,4 +26,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
+      - run: pip install git+https://github.com/scalableminds/mkdocs-video.git
       - run: mkdocs gh-deploy --force
