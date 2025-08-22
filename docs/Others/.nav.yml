@@ -1,0 +1,5 @@
+# docs/.nav.yml
+nav:
+  - 01-Markdown-Notes.md
+  - 02-Project-Structure.md
+  - 03-Structuring-Course-Content.md

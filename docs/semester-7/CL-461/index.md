@@ -13,5 +13,6 @@ This course explores the fundamental principles of fluid mechanics as applied to
 
 ## 📝 Lecture Notes
 
-- [Lecture 1: Introduction to Fluid Properties](lecture-01.md)
-- _More lectures coming soon..._
+- [Lecture 1: The Ubiquity of Colloidal and Interfacial Phenomena](lecture-01.md)
+- [Lecture 2: Defining Colloids, Stability, and Preparation](lecture-02.md)
+- [Lecture 3: Classifying Dispersed Systems and Their Thermodynamic Foundation](lecture-03.md)
