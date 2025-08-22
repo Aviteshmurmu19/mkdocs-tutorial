@@ -19,6 +19,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/o-BaZ1uhcl0)
+
 ## Recap & A Final Application: Selective Transport Membranes
 
 In our last session, we surveyed numerous everyday phenomena governed by interfacial forces. We discussed how surfaces can be engineered to be wetting or non-wetting, with applications ranging from self-cleaning glass to high-efficiency condensers. Let's explore one final, advanced application of this principle.
@@ -55,17 +59,9 @@ To understand colloids, we must place them on a spectrum of particle size.
     - **Stability:** **Unstable**. The particles are large enough that gravity will cause them to settle out (**sedimentation**) or float to the top (**creaming**) over time. They will not stay suspended indefinitely.
     - **Example:** Sand or mud in water.
 
-=== "Colloids"
-    - **Nature:** **Microscopically heterogeneous**, but often appear **homogeneous** to the naked eye.
-    - **Particle Size:** Intermediate, ranging from **~1 nm to 1000 nm** (1 µm).
-    - **Stability:** Generally **stable**. The particles are small enough that the random impacts from the surrounding solvent molecules (**Brownian motion**) are sufficient to keep them suspended against gravity. They do not spontaneously separate.
-    - **Example:** Milk (fat and protein in water), fog (water droplets in air), paint.
+=== "Colloids" - **Nature:** **Microscopically heterogeneous**, but often appear **homogeneous** to the naked eye. - **Particle Size:** Intermediate, ranging from **~1 nm to 1000 nm** (1 µm). - **Stability:** Generally **stable**. The particles are small enough that the random impacts from the surrounding solvent molecules (**Brownian motion**) are sufficient to keep them suspended against gravity. They do not spontaneously separate. - **Example:** Milk (fat and protein in water), fog (water droplets in air), paint.
 
-=== "Solutions"
-    - **Nature:** **Homogeneous**. The composition is perfectly even down to the molecular level. You cannot distinguish the solute from the solvent.
-    - **Particle Size:** Atomic or molecular scale, **< 1 nm**.
-    - **Stability:** **Thermodynamically stable**. The components will never separate spontaneously.
-    - **Example:** Salt or sugar dissolved in water.
+=== "Solutions" - **Nature:** **Homogeneous**. The composition is perfectly even down to the molecular level. You cannot distinguish the solute from the solvent. - **Particle Size:** Atomic or molecular scale, **< 1 nm**. - **Stability:** **Thermodynamically stable**. The components will never separate spontaneously. - **Example:** Salt or sugar dissolved in water.
 
 ### The Formal Definition of a Colloid
 

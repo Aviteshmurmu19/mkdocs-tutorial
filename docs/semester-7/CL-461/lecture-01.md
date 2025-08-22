@@ -18,6 +18,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/0CVvx-gxPKo)
+
 ## Administrative Overview & Course Structure
 
 Welcome to the course! The primary objective is to understand the behavior of materials when they are broken down into tiny particles (**colloids**) and the physics that governs their **interfaces**.

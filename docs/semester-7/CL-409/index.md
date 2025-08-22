@@ -5,9 +5,9 @@ tags:
   - "Material Science"
 ---
 
-# 📘 [COURSE_CODE]: [Course Title]
+# 📘 CL-409: Material Science
 
-Welcome to **[COURSE_CODE]**. This page serves as an overview — use it to navigate to lectures, see references, and explore related topics.
+Welcome to **CL-409**. This page serves as an overview — use it to navigate to lectures, see references, and explore related topics.
 
 ---
 

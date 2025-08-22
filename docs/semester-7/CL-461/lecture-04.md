@@ -18,6 +18,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/9qG94kfkvl4)
+
 ## 1. Review and Prerequisite: The Gibbs Phase Rule
 
 As we established, a fundamental prerequisite for any colloidal system is the presence of **at least two distinct phases**. The stability and existence of these phases under different conditions (Temperature, Pressure, Composition) are governed by the **Gibbs Phase Rule**.

@@ -19,6 +19,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/A7i__yoAUZ0)
+
 ## 1. Clarification: Bjerrum Length and the Insolubility of Silver Halides
 
 Before moving forward, let's address a question from the previous lecture: If the Bjerrum length concept explains the solubility of most salts in water, why are silver halides (like AgCl, AgI) largely insoluble?

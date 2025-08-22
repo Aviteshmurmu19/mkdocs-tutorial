@@ -18,6 +18,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/4w-hdzSW3RM)
+
 ## 1. Extending the Hamaker Equation to Various Geometries
 
 Last time, we derived the Hamaker equation for the attractive Van der Waals energy between two semi-infinite flat plates. By setting up the appropriate volume integrals and applying the correct limits, this approach can be extended to find analytical expressions for the interaction energy between bodies of many different shapes.

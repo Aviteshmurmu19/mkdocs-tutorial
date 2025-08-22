@@ -18,6 +18,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/wMLxviiERmY)
+
 ## 1. The Necessity of Repulsive Forces
 
 Our study of Van der Waals forces, as modeled by the Lennard-Jones potential, led to a critical conclusion: for uncharged particles, the interaction is fundamentally attractive. This means that if Van der Waals forces were the only ones at play, all colloidal particles would irreversibly **coagulate** as they fall into the deep primary energy minimum.

@@ -18,6 +18,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/OSs8PIjX25w)
+
 ## 1. From Molecules to Particles: Summing the Van der Waals Forces
 
 In the last lecture, we established that for uncharged particles, the dominant attractive forces are the Van der Waals forces (Debye, Keesom, and London), all of which share a characteristic $x^{-6}$ dependence on distance. We can lump these contributions into a single equation for the attractive interaction energy between two _identical molecules_:

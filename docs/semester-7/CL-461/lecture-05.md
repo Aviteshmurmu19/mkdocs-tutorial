@@ -18,6 +18,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/rEVkiNOkz0w)
+
 ## 1. From Theory to Measurement
 
 Before cataloging the forces, it's crucial to understand that these interaction energy curves are not purely theoretical constructs. They can be, and are, measured experimentally.

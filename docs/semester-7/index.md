@@ -23,8 +23,8 @@ Welcome to **CL 409**. This course covers atomic bonding, crystal structures, me
 
 > Use the sidebar for navigation or select from the list below.
 
-- [Lecture 1: Atomic Bonding & Crystal Structure](lecture-01.md)
-- [Lecture 2: Crystal Defects & Mechanical Properties](lecture-02.md)
+- [CL-409](./CL-409/index.md)
+- [CL-461](./CL-461/index.md)
 - _More lectures coming soon..._
 
 ---

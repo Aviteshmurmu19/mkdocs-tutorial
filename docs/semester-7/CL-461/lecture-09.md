@@ -18,6 +18,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/aE3KwUoQPxE)
+
 ## 1. Contextualizing Solidification: Pushing, Entrapment, and Engulfment
 
 In our last session, we derived an expression for the effective interaction energy when two dissimilar materials interact across an intervening medium. The sign of this interaction determines the fate of a dispersed particle during solidification. Let's clarify the roles of the three components in this context:

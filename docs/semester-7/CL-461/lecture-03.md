@@ -18,6 +18,10 @@ tags:
 
 ---
 
+## Watch here
+
+![type:video](https://www.youtube.com/embed/PtyTl0NhuXM)
+
 ## 1. The Anatomy of a Dispersed System
 
 All colloidal systems are a subset of a broader category known as **dispersed systems**. This implies that one substance is distributed, in a finely divided state, within another. This structure gives rise to two fundamental components:

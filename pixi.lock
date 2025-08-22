@@ -106,6 +106,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/01/61/d4b89fec821f72385526e1b9d9a3a0385dda4a72b206d28049e2c7cd39b8/gitpython-3.1.45-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/be/31/a76f4bfa885f93b8167cb4c85cf32b54d1f64384d0b897d45bc6d19b7b45/htmlmin2-0.1.13-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/5e/73/e01e4c5e11ad0494f4407a3f623ad4d87714909f50b17a06ed121034ff6e/jsmin-3.0.1.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/f4/87/6456b9541d186ee7d4cb53bf1b9a0d7f3b1068532676940fdd594ac90865/lxml-6.0.0-cp313-cp313-win_amd64.whl
+      - pypi: git+https://github.com/scalableminds/mkdocs-video.git#0ed49ba99dd365643bd50e6c420b400dfcf99940
       - pypi: https://files.pythonhosted.org/packages/d7/23/2ae189f4bbb5d35bf6dbd202a534b3f7f929c404d056fb0b20e826b9b643/mkdocs_awesome_nav-3.1.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/81/56/15fdbb6afa718a6c9de626bd11672040832ba547c03daf205e295be4e0d4/mkdocs_git_committers_plugin-0.2.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/53/b6/106fcc15287e7228658fbd0ad9e8b0d775becced0a089cc39984641f4a0f/mkdocs_git_revision_date_localized_plugin-1.4.7-py3-none-any.whl
@@ -733,6 +735,16 @@ packages:
   purls: []
   size: 55476
   timestamp: 1727963768015
+- pypi: https://files.pythonhosted.org/packages/f4/87/6456b9541d186ee7d4cb53bf1b9a0d7f3b1068532676940fdd594ac90865/lxml-6.0.0-cp313-cp313-win_amd64.whl
+  name: lxml
+  version: 6.0.0
+  sha256: 2f34687222b78fff795feeb799a7d44eca2477c3d9d3a46ce17d51a4f383e32e
+  requires_dist:
+  - cssselect>=0.7 ; extra == 'cssselect'
+  - html5lib ; extra == 'html5'
+  - beautifulsoup4 ; extra == 'htmlsoup'
+  - lxml-html-clean ; extra == 'html-clean'
+  requires_python: '>=3.8'
 - conda: https://conda.anaconda.org/conda-forge/noarch/markdown-3.8.2-pyhd8ed1ab_0.conda
   sha256: d495279d947e01300bfbc124859151be4eec3a088c1afe173323fd3aa89423b2
   md5: b0404922d0459f188768d1e613ed8a87
@@ -934,6 +946,13 @@ packages:
   - pytest-cov>=6,<7 ; extra == 'test'
   - validator-collection>=1.5,<1.6 ; extra == 'test'
   requires_python: '>=3.9,<4'
+- pypi: git+https://github.com/scalableminds/mkdocs-video.git#0ed49ba99dd365643bd50e6c420b400dfcf99940
+  name: mkdocs-video
+  version: 1.5.0
+  requires_dist:
+  - mkdocs>=1.1.0,<2
+  - lxml>=4.7.0
+  requires_python: '>=3.6'
 - pypi: https://files.pythonhosted.org/packages/ca/91/7dc28d5e2a11a5ad804cf2b7f7a5fcb1eb5a4966d66a5d2b41aee6376543/msgpack-1.1.1-cp313-cp313-win_amd64.whl
   name: msgpack
   version: 1.1.1

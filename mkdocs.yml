@@ -67,7 +67,11 @@ markdown_extensions:
 # 4. Plugins
 plugins:
   - search
-  - tags # This
+  - tags
+  - mkdocs-video:
+      css_style:
+        width: "100%"
+        height: "34vw"
 
 extra_javascript:
   - javascripts/mathjax.js
