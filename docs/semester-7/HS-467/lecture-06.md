@@ -1,5 +1,5 @@
 ---
-title: "Lecture 1"
+title: "Lecture 6"
 date: 2025-08-21
 # tags:
 #   - Material Science
