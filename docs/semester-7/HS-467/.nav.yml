@@ -2,4 +2,19 @@
 # The glob pattern automatically finds all 'lecture-*.md' files.
 nav:
   - index.md
-  - "lecture-*.md"
+  - "lecture-00.md"
+  - "lecture-01.md"
+  - "lecture-02.md"
+  - "lecture-03.md"
+  - "lecture-04.md"
+  - "lecture-05.md"
+  - "lecture-06.md"
+  - "lecture-07.md"
+  - "lecture-08.md"
+  - "lecture-09.md"
+  - "lecture-10.md"
+  - "lecture-11.md"
+  - "lecture-12.md"
+  - "lecture-13.md"
+  - "lecture-14.md"
+  - "lecture-15.md"
