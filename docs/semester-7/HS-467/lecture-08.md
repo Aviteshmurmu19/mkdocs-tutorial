@@ -1,10 +1,18 @@
 ---
-title: "Lecture 8"
-date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+title: "08 | Sāṅkhya's Theory of Causation (Satkāryavāda)"
+date: 2025-08-28
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 8
+summary: "The eighth part of a simplified introduction to Indian Philosophy. This section explains the Sāṅkhya school's foundational theory of causation, Satkāryavāda, which posits that the effect already exists in its material cause before production and that creation is merely a process of manifestation."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Sāṅkhya
+  - Metaphysics
+  - Causation
+  - Satkāryavāda
+  - Prak
 ---
 
 > Prakriti is the blind driver and purusa is the disabled passenger. Radical dualism is similar to dua lipa album name radical optimism. Ok go ahead

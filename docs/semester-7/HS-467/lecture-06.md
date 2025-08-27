@@ -1,10 +1,20 @@
 ---
-title: "Lecture 6"
-date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+title: "06 | Cārvāka Ethics - 'Eat, Drink, and Be Merry'"
+date: 2025-08-28
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 6
+summary: "The sixth and final part on the Cārvāka school. This section covers their ethics, which posits that pleasure (Kāma) and wealth (Artha) are the only rational goals in life. It also explains their view of liberation (Mokṣa) as nothing more than death."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Cārvāka
+  - Ethics
+  - Hedonism
+  - Kāma
+  - Artha
+  - Materialism
+  - Mokṣa
 ---
 
 > Ok I got it soul is just a by product of the four bhutas. I am ready bro

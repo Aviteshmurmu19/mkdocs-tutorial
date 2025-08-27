@@ -1,10 +1,18 @@
 ---
-title: "Lecture 1"
+title: "01 | The Goal of Mokṣa"
 date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 1
+summary: "The first part of a simplified, step-by-step introduction to Indian Philosophy. This section explains the core concept of philosophy as a practical quest to end suffering (duḥkha) and achieve the ultimate goal of liberation (mokṣa)."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Mokṣa
+  - Duḥkha
+  - Suffering
+  - Liberation
+  - Philosophy Basics
 ---
 
 > bro this is too much information. i can not take all these at one. i want to eat slowly. please tell me slowly and then we slowly move on to next-next topics. and i need many information to store just one line, i mean tell me one single topic in detail bro, i will easily forget one lines quotes very easily. And please ask me if i am ready to move to next topic, like a roleplay bro. I know that you cannot teach me all these in one response, so please save some for next response bro

@@ -1,10 +1,20 @@
 ---
-title: "Lecture 7"
-date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+title: "07 | Introduction to Sāṅkhya Dualism (Puruṣa & Prakṛti)"
+date: 2025-08-28
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 7
+summary: "The seventh part of a simplified introduction to Indian Philosophy. This section introduces the Āstika school of Sāṅkhya, explaining its core philosophy of dualism and defining the two fundamental realities: Puruṣa (pure, passive consciousness) and Prakṛti (unconscious, active matter)."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Sāṅkhya
+  - Dualism
+  - Āstika
+  - Puruṣa
+  - Prakṛti
+  - Consciousness
+  - Matter
 ---
 
 > Were charaka using some differential equations to maximize please and minimise pain 😂. "Be Merry"? What does "be Merry" means. I head in "happy Merry Christmas" but never knew what it meant. Ok go ahead 👍🏻

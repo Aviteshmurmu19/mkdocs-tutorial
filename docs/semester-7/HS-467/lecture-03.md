@@ -1,10 +1,20 @@
 ---
-title: "Lecture 3"
-date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+title: "03 | The Cārvāka School's Golden Rule"
+date: 2025-08-28
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 3
+summary: "The third part of a simplified introduction to Indian Philosophy. This section introduces the Nāstika school of Cārvāka (Lokāyata) and explains its foundational principle of epistemology: that perception (pratyakṣa) is the only valid source of knowledge."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Cārvāka
+  - Lokāyata
+  - Nāstika
+  - Materialism
+  - Epistemology
+  - Perception
+  - Pratyakṣa
 ---
 
 > I used to think Nastik means who doesn't believe in any religion and therefore opposite for that should be Astik, the one who believes in Vedas. Ok I got their school buisness. Ok go ahead bro. Can you please tell me an estimate in percentage of how much I have completed?

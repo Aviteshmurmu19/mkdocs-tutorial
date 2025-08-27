@@ -1,10 +1,23 @@
 ---
-title: "Lecture 0"
+title: "00 | Introdiction"
 date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 0
+summary: "Comprehensive study notes covering the introduction to Indian Philosophy, the Cārvāka (Materialist) school, and the Sāṅkhya (Dualist) school. Prepared to help a student catch up on missed lectures and prepare for an upcoming quiz."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Cārvāka
+  - Sāṅkhya
+  - Āstika
+  - Nāstika
+  - Materialism
+  - Dualism
+  - Satkāryavāda
+  - Prakṛti
+  - Puruṣa
+  - Quiz Preparation
 ---
 
 > I have not attended any classes. Even if I had, I don't remember anything. Could you please explain what's been covered in class and how I can catch up? I will study these topics with the notes that you will generate. There will also be a quiz, so please prepare notes accordingly, focusing on the material taught in class. And please go through the files that i have shared with you, as these are necessary for you to know what is going on in my class. this is my course details [Course details of HS 467 - Indian Philosophy Fields Content Course Name Indian Philosophy Total Credits 6.0 Type Theory Lecture 3.0 Tutorial Practical Self study Half Semester N Text Reference M. Hiriyanna, The Essentials of Indian Philosophy, Allen and Unwin, 1967.S. Radhakrishnan, Indian Philosophy, 2 vols., Allen and Unwin, 1966.S. Radhakrishnan and C. A. Moore, A sourcebook in Indian Philosophy, Princeton Univ. Press, 1967.Pappu S. S. Rama Rao, indian Philosophy Past and Future, Motilal Banarasidas, 1982. Description A study and examination of the logical, epistemological and ethical problems in the classical schools of Indian Philosophy, science and metaphysics in ancient India. The course will emphasize the insights of ancient Indian thinkers and their perennial preoccupation with issues centering on man and his being in the world in society. Last Update 2003-04-03 16:18:14] Class transcription [...]

@@ -1,10 +1,20 @@
 ---
-title: "Lecture 4"
-date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+title: "04 | Why the Cārvākas Rejected Logic (Inference)"
+date: 2025-08-28
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 4
+summary: "The fourth part of a simplified introduction to Indian Philosophy. This section explains the Cārvāka school's famous argument for rejecting inference (anumāna) as a valid source of knowledge by attacking the unprovability of the universal relationship (vyāpti)."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Cārvāka
+  - Epistemology
+  - Inference
+  - Anumāna
+  - Vyāpti
+  - Logic
+  - Skepticism
 ---
 
 > Wtf astika accepts Vedas but rejects god!? Tell me about this when we reach that topic. It's ok bro you can just write only percentage no need to explain it. I don't know bro what do you mean by arch-heretics?ok I got it if I can feel it is there then it is there. Yes I can see why everyone was shocked as they can't perceive spiritual things. Ok cool bro go ahead

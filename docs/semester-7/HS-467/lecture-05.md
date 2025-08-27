@@ -1,10 +1,21 @@
 ---
-title: "Lecture 5"
-date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+title: "05 | Cārvāka Metaphysics - What the World is Made Of"
+date: 2025-08-28
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 5
+summary: "The fifth part of a simplified introduction to Indian Philosophy. This section covers the metaphysics of the Cārvāka school, explaining their belief in only four perceptible elements (earth, water, fire, air) and their radical theory of consciousness as an emergent property of matter."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Cārvāka
+  - Metaphysics
+  - Materialism
+  - Four Elements
+  - Bhūtas
+  - Consciousness
+  - Emergent Property
+  - Ātman
 ---
 
 > Ok I got confused reading only halfway but upon finishing reading I got it. Others are taking a leap of faith from know to unknown. And this makes others wrong. Ok go ahead 👍🏻

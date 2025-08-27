@@ -1,10 +1,19 @@
 ---
-title: "Lecture 2"
+title: "02 | Āstika vs. Nāstika Schools"
 date: 2025-08-21
-# tags:
-#   - Material Science
-#   - Atomic Bonding
-#   - Crystal Structure
+course: "HS 467 - Indian Philosophy"
+series: "Indian Philosophy Explained Simply"
+part: 2
+summary: "The second part of a simplified introduction to Indian Philosophy. This section explains the fundamental classification of philosophical schools into two main camps: Āstika (Orthodox), who accept the authority of the Vedas, and Nāstika (Heterodox), who reject it."
+tags:
+  - Indian Philosophy
+  - HS 467
+  - Āstika
+  - Nāstika
+  - Orthodox Schools
+  - Heterodox Schools
+  - Vedas
+  - Classification
 ---
 
 > I got it bro. I am ready for next
