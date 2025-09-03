@@ -1,0 +1,2793 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A personal collection of college lecture notes.">
+      
+      
+        <meta name="author" content="Avitesh Murmu">
+      
+      
+        <link rel="canonical" href="https://aviteshmurmu19.github.io/mkdocs-tutorial/Others/02-Project-Structure/">
+      
+      
+        <link rel="prev" href="../01-Markdown-Notes/">
+      
+      
+        <link rel="next" href="../03-Structuring-Course-Content/">
+      
+      
+      <link rel="icon" href="../../assets/RT Logo.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
+    
+    
+      
+        <title>A Guide to Project Structure - My College Notes</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Poppins";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#a-guide-to-project-structure" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="My College Notes" class="md-header__button md-logo" aria-label="My College Notes" data-md-component="logo">
+      
+  <img src="../../assets/RT Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My College Notes
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              A Guide to Project Structure
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="pink"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="pink"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="My College Notes" class="md-nav__button md-logo" aria-label="My College Notes" data-md-component="logo">
+      
+  <img src="../../assets/RT Logo.png" alt="logo">
+
+    </a>
+    My College Notes
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Welcome to My Notes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🏷️ Tags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Others
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Others
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../01-Markdown-Notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    A Guide to Enhanced Markdown Writing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    A Guide to Project Structure
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    A Guide to Project Structure
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-golden-rule-one-folder-one-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Golden Rule: One Folder, One Course
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-anatomy-of-the-docs-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Anatomy of the docs Directory
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Anatomy of the docs Directory">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-the-root-level-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. The Root Level (docs/)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-the-semester-level-docssemester-x" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. The Semester Level (docs/Semester X/)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-the-course-level-docssemester-xcourse_code" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. The Course Level (docs/Semester X/COURSE_CODE/)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizing-the-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualizing the Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#your-scalable-workflow-in-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Your Scalable Workflow in Action
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Your Scalable Workflow in Action">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#to-add-a-new-semester" class="md-nav__link">
+    <span class="md-ellipsis">
+      To add a new semester:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-add-a-new-course-to-a-semester" class="md-nav__link">
+    <span class="md-ellipsis">
+      To add a new course to a semester:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#to-add-a-new-lecture-to-a-course" class="md-nav__link">
+    <span class="md-ellipsis">
+      To add a new lecture to a course:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-structure-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why This Structure Works
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-Structuring-Course-Content/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    A Guide to Structuring Course Content
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+     TEMPLATES
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+             TEMPLATES
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../_TEMPLATES/_TEMPLATE_SEMESTER/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+     TEMPLATE SEMESTER
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+             TEMPLATE SEMESTER
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../_TEMPLATES/_TEMPLATE_SEMESTER/_TEMPLATE_COURSE/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+     TEMPLATE COURSE
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4_1_2" id="__nav_4_1_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_4_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1_2">
+            <span class="md-nav__icon md-icon"></span>
+             TEMPLATE COURSE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../_TEMPLATES/_TEMPLATE_SEMESTER/_TEMPLATE_COURSE/lecture-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture [LECTURE_NUMBER]: [Lecture Title]
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../semester-7/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Semester 7
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Semester 7
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../semester-7/CL-409/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    CL 409
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            CL 409
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-00/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    00 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    01 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    02 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    03 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    04 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    05 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    06 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    07 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    08 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    09 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    11 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    12 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    13 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    14 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    15 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-16/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    16 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-17/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    17 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-18/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    18 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-19/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    19 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-409/lecture-20/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    20 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../semester-7/CL-461/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    CL 461
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            CL 461
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 1: The Ubiquity of Colloidal and Interfacial Phenomena
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 2: Defining Colloids, Stability, and Preparation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 3: Classifying Dispersed Systems and Their Thermodynamic Foundation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 4: Colloidal Stability and Interaction Energy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 5: The Origin of Interparticle Forces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 6: Macroscopic Forces and Their Measurement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 7: Interfacial Energy, Cohesion, Adhesion, and Solidification
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 8: Solidification Phenomena and Introduction to Electrostatic Forces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 9: Solidification Phenomena and Introduction to Electrostatic Forces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 10: The Electrical Double Layer, Surface Potential, and Ion Pairing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 11: Modeling the Electrical Double Layer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/CL-461/lecture-12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 12
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../semester-7/HS-467/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    HS 467
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            HS 467
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-00/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    00 | Introdiction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-01/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    01 | The Goal of Mokṣa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-02/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    02 | Āstika vs. Nāstika Schools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-03/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    03 | The Cārvāka School's Golden Rule
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-04/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    04 | Why the Cārvākas Rejected Logic (Inference)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-05/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    05 | Cārvāka Metaphysics - What the World is Made Of
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-06/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    06 | Cārvāka Ethics - 'Eat, Drink, and Be Merry'
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-07/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    07 | Introduction to Sāṅkhya Dualism (Puruṣa & Prakṛti)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-08/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    08 | Sāṅkhya's Theory of Causation (Satkāryavāda)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-09/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    09 | Prakṛti and the Three Guṇas
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    10 | Sāṅkhya - Bondage and Liberation (Kaivalya)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    11 | Self-Assessment Quiz 1 (Intro, Cārvāka & Sāṅkhya)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-12/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    12 | Quiz 1 Review & Answer Polishing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-13/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    13 | Clarifications & Exam-Style Quiz 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-14/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    14 | 
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-15/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 15
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-16/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 16
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/lecture-17/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Lecture 17
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_4_20" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../semester-7/HS-467/Sorce%20Material/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Sorce Material
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_4_20" id="__nav_5_4_20_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_4_20_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_4_20">
+            <span class="md-nav__icon md-icon"></span>
+            Sorce Material
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/Sorce%20Material/01%20Carvak%20Philosophy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    01 | Carvak Philosophy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/Sorce%20Material/02%20Philosophy%20Introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    02 | Philosophy: An Introduction to Indian Philosophy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/Sorce%20Material/03%20C%C4%81rv%C4%81ka%20Philosophy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    03 | Cārvāka Philosophy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/Sorce%20Material/04%20Sankhya%20Theory%20of%20Causation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    04 | The Sānkhya System Theory of Causation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/Sorce%20Material/05%20Sankhya%20Prakrti/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    05 | Sankhya Prakrti
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/Sorce%20Material/06%20Purusa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    06 | Puruṣa
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/Sorce%20Material/07%20Sankhya%20Theory%20of%20Evolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    07 | Sankhya Theory of Evolution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../semester-7/HS-467/Sorce%20Material/08%20Sankhya%20Material/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    08 | Sankhya Material
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../semester-8/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Semester 8
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Semester 8
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div><h1 id="a-guide-to-project-structure">A Guide to Project Structure<a class="headerlink" href="#a-guide-to-project-structure" title="Permanent link">¶</a></h1>
+<p>Our project structure is designed for three core principles: <strong>scalability</strong>, <strong>consistency</strong>, and <strong>automation</strong>. The goal is to allow the project to grow infinitely without needing to manually update a central configuration file.</p>
+<p>This is achieved through a logical folder hierarchy combined with small, localized navigation files.</p>
+<h4 id="the-golden-rule-one-folder-one-course">The Golden Rule: One Folder, One Course<a class="headerlink" href="#the-golden-rule-one-folder-one-course" title="Permanent link">¶</a></h4>
+<p>The entire system is built around a single, simple idea: <strong>every course gets its own folder.</strong></p>
+<p>This makes the structure predictable and self-contained. All notes, images, and resources for a specific course live inside that course's dedicated folder, making it easy to manage, update, or move.</p>
+<hr>
+<h4 id="the-anatomy-of-the-docs-directory">The Anatomy of the <code>docs</code> Directory<a class="headerlink" href="#the-anatomy-of-the-docs-directory" title="Permanent link">¶</a></h4>
+<p>Every file and folder for your site lives inside the <code>docs</code> directory. Here is a breakdown of its components from the top down.</p>
+<h5 id="1-the-root-level-docs">1. The Root Level (<code>docs/</code>)<a class="headerlink" href="#1-the-root-level-docs" title="Permanent link">¶</a></h5>
+<p>This is the top level of your documentation.</p>
+<ul>
+<li><strong><code>index.md</code></strong>: The main homepage for your entire collection of notes.</li>
+<li><strong><code>tags.md</code></strong>: The global tag index page, which automatically lists all tags used across every semester and course.</li>
+<li><strong><code>assets/</code></strong>: A central folder for global resources like images, icons (<code>RT Logo.png</code>), or PDFs that might be used across multiple pages.</li>
+<li><strong><code>_TEMPLATES/</code></strong>: (Recommended) A special folder, prefixed with an underscore, that holds your reusable templates for semesters, courses, and lectures. It is not published as part of the website.</li>
+</ul>
+<h5 id="2-the-semester-level-docssemester-x">2. The Semester Level (<code>docs/Semester X/</code>)<a class="headerlink" href="#2-the-semester-level-docssemester-x" title="Permanent link">¶</a></h5>
+<p>Each semester is a top-level folder within <code>docs</code>.</p>
+<ul>
+<li><strong><code>index.md</code></strong>: The overview or "dashboard" page for that specific semester. It should contain links to each course offered in that semester.</li>
+<li><strong><code>.nav.yml</code></strong>: A small configuration file that controls the <strong>order of courses</strong> in the navigation sidebar for that semester. It ensures courses appear in a logical sequence.</li>
+</ul>
+<h5 id="3-the-course-level-docssemester-xcourse_code">3. The Course Level (<code>docs/Semester X/COURSE_CODE/</code>)<a class="headerlink" href="#3-the-course-level-docssemester-xcourse_code" title="Permanent link">¶</a></h5>
+<p>Each course is a folder inside its respective semester folder. The folder name should be the course code (e.g., <code>CL 409</code>).</p>
+<ul>
+<li><strong><code>index.md</code></strong>: The overview page for the course. This is where you should list the syllabus, instructor details, and a table of contents for all lectures.</li>
+<li><strong><code>.nav.yml</code></strong>: A configuration file that controls the <strong>order of lectures</strong> in the navigation. This is where the automation happens, as it can automatically find and sort all lecture files.</li>
+<li><strong><code>lecture-XX.md</code></strong>: Individual lecture notes. Using a numbered prefix (<code>01</code>, <code>02</code>, <code>03</code>) ensures they are sorted correctly by default.</li>
+</ul>
+<hr>
+<h4 id="visualizing-the-structure">Visualizing the Structure<a class="headerlink" href="#visualizing-the-structure" title="Permanent link">¶</a></h4>
+<p>Here is a visual representation of the complete structure:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>docs/
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── _TEMPLATES/                 # Your reusable templates
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   └── _TEMPLATE_SEMESTER/
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│       └── _TEMPLATE_COURSE/
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│           ├── .nav.yml
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│           ├── index.md
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│           └── lecture-01.md
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>├── assets/                     # Global assets (images, PDFs)
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│   ├── RT Logo.ico
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│   └── RT Logo.png
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>├── index.md                    # Main homepage
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>├── tags.md                     # Global tag index
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>└── Semester 7/
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    ├── index.md                # Overview page for Semester 7
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    ├── .nav.yml                # Controls course order in Semester 7
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>    └── CL 409/
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>        ├── index.md            # Overview page for course CL 409
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>        ├── .nav.yml            # Controls lecture order in CL 409
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>        ├── lecture-01.md
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>        ├── lecture-02.md
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>        └── ...
+</code></pre></div>
+<hr>
+<h3 id="your-scalable-workflow-in-action">Your Scalable Workflow in Action<a class="headerlink" href="#your-scalable-workflow-in-action" title="Permanent link">¶</a></h3>
+<p>This structure makes managing your notes incredibly simple.</p>
+<h4 id="to-add-a-new-semester">To add a new semester:<a class="headerlink" href="#to-add-a-new-semester" title="Permanent link">¶</a></h4>
+<ol>
+<li><strong>Copy</strong> the <code>_TEMPLATE_SEMESTER</code> folder from <code>_TEMPLATES</code> into the <code>docs</code> directory.</li>
+<li><strong>Rename</strong> it to <code>Semester 8</code>.</li>
+<li><strong>Edit</strong> <code>docs/Semester 8/index.md</code> to update the title and content.</li>
+</ol>
+<h4 id="to-add-a-new-course-to-a-semester">To add a new course to a semester:<a class="headerlink" href="#to-add-a-new-course-to-a-semester" title="Permanent link">¶</a></h4>
+<ol>
+<li><strong>Copy</strong> the <code>_TEMPLATE_COURSE</code> folder from <code>_TEMPLATES</code> into <code>docs/Semester 8/</code>.</li>
+<li><strong>Rename</strong> it to the new course code (e.g., <code>CL 461</code>).</li>
+<li><strong>Edit</strong> the <code>.nav.yml</code> file inside <code>docs/Semester 8/</code> to add the new course to the navigation list.</li>
+<li><strong>Edit</strong> the <code>index.md</code> inside <code>docs/Semester 8/CL 461/</code> to fill in the course details.</li>
+</ol>
+<h4 id="to-add-a-new-lecture-to-a-course">To add a new lecture to a course:<a class="headerlink" href="#to-add-a-new-lecture-to-a-course" title="Permanent link">¶</a></h4>
+<ol>
+<li><strong>Create</strong> a new file, such as <code>lecture-03.md</code>, inside the course folder (e.g., <code>docs/Semester 7/CL 409/</code>).</li>
+<li><strong>Write your notes.</strong></li>
+</ol>
+<p><strong>You are done.</strong> The navigation will automatically update to include the new lecture. You never have to edit a configuration file to add new lectures.</p>
+<hr>
+<h3 id="why-this-structure-works">Why This Structure Works<a class="headerlink" href="#why-this-structure-works" title="Permanent link">¶</a></h3>
+<ul>
+<li><strong>Scalable:</strong> You can add hundreds of semesters, courses, and lectures without performance degradation or complex configuration.</li>
+<li><strong>Zero YAML Edits for Lectures:</strong> The most frequent action—adding a lecture—requires no configuration changes. Just add the file.</li>
+<li><strong>Consistent:</strong> Every course and semester has a predictable layout, making it easy for you and others to navigate.</li>
+<li><strong>Scoped Navigation:</strong> Each <code>.nav.yml</code> file only manages its own level, preventing a single, massive, and unmanageable navigation tree.</li>
+</ul></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../01-Markdown-Notes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: A Guide to Enhanced Markdown Writing">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                A Guide to Enhanced Markdown Writing
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../03-Structuring-Course-Content/" class="md-footer__link md-footer__link--next" aria-label="Next: A Guide to Structuring Course Content">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                A Guide to Structuring Course Content
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.indexes", "toc.integrate", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
